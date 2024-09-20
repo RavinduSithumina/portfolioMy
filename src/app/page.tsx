@@ -15,12 +15,13 @@ import {
   AiFillTikTok } from "react-icons/ai";
 
 // image
-import profileImage from './assest/my.png';
-import web from './assest/web.png';
-import soft from './assest/soft.png';
-import ui1 from './assest/ui2.png';
-import ui2 from './assest/ui3.png'; 
-import ui4 from './assest/ui4.png';
+import profileImage from "./assest/my.png";
+import web from "./assest/web.png";
+import soft from "./assest/soft.png";
+import ui1 from "./assest/ui2.png";
+import ui2 from "./assest/ui3.png"; 
+import ui4 from "./assest/ui4.png";
+import ui5 from "./assest/ui5.png";
 
 // hooks
 import React , { useState }  from 'react';
@@ -201,6 +202,18 @@ export default function Home() {
               <div className="basis-1/3 flex-1">
                 <Image src={ui4} 
                 alt="web ui4" 
+                layout="responsive" 
+                className="rounded-xl object-cover"/>
+              </div>
+              </motion.div>
+
+              <motion.div
+              whileHover={{scale:1.1 , rotate:2}}
+              whileTap={{scale:0.9 , rotate:-10 , borderRadius:"100%"}}
+              >
+              <div className="basis-1/3 flex-1">
+                <Image src={ui5} 
+                alt="web ui5" 
                 layout="responsive" 
                 className="rounded-xl object-cover"/>
               </div>
