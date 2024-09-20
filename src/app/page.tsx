@@ -82,7 +82,7 @@ export default function Home() {
               </h3>
               <p className="text-sm py-4 text-gray-500 max-w-xl mx-auto md:text-md dark:text-gray-400">
               Hello , welcome my parsonal website. I&apos;m Ravindu . 
-              i&apos;m following Higher National Diploma in Information Technology.
+              I&apos;m following Higher National Diploma in Information Technology.
               I&apos;m specialized training in Web developing , Application Developing and UI/UX.
               </p>
               {/* socialmedia */}
@@ -160,10 +160,9 @@ export default function Home() {
           <div>
             <h2 className="text-2xl font-bold">Portfolio</h2>
             <p className="py-2 text-gray-700 leading-6 dark:text-gray-400">
-              This is some of the Userinterface of my project . 
-              I can design Userinterface for mobile application and 
-              web application . 
-              i design Userinterface with Figma
+            This is some of the Userinterface of my project. 
+            I can design Userinterface for mobile application and web application. 
+            I design Userinterface with Figma.
             </p>
             {/* work ui image */}
             <div className="flex flex-col gap-10 p-10 md:flex-row lg:flex-wrap">
@@ -208,8 +207,8 @@ export default function Home() {
               </motion.div>
 
               <motion.div
-              whileHover={{scale:1.1 , rotate:2}}
-              whileTap={{scale:0.9 , rotate:-10 , borderRadius:"100%"}}
+              whileHover={{scale:1.1 , rotate:-2}}
+              whileTap={{scale:0.9 , rotate:10 , borderRadius:"100%"}}
               >
               <div className="basis-1/3 flex-1">
                 <Image src={ui5} 
@@ -229,7 +228,7 @@ export default function Home() {
             Contect me for more details
           </h3> 
           <p className="opacity-60 dark:text-white">
-            If you want more details you can contect me ant 
+            If you want more details you can contect me any 
             social account and you can download my CV 
             useing resume button
           </p>
