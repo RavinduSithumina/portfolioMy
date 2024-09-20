@@ -80,9 +80,9 @@ export default function Home() {
                 Softwear and Website Developer
               </h3>
               <p className="text-sm py-4 text-gray-500 max-w-xl mx-auto md:text-md dark:text-gray-400">
-              Hello , welcome my parsonal website. I'm Ravindu . 
-              i'm following Higher National Diploma in Information Technology.
-              I'm specialized training in Web developing , Application Developing and UI/UX.
+              Hello , welcome my parsonal website. I&apos;m Ravindu . 
+              i&apos;m following Higher National Diploma in Information Technology.
+              I&apos;m specialized training in Web developing , Application Developing and UI/UX.
               </p>
               {/* socialmedia */}
               <div className="flex text-5xl justify-center gap-16 text-gray-600">
